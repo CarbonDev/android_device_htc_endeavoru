@@ -125,4 +125,7 @@ TARGET_RELEASETOOLS_EXTENSIONS := device/htc/endeavoru
 BOARD_SEPOLICY_DIRS += \
     device/htc/endeavoru/selinux
 
+# External apps on SD
+TARGET_EXTERNAL_APPS = sdcard0
+
 #BOARD_SEPOLICY_UNION +=
